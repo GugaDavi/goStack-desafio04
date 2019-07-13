@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F2F2F2;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header Style */
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+div.header {
+  background-color: #4A90E2;
+  height: 64px;
+}
+
+div.header div.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+div.header .container div.perfil {
+  font-size: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.header .container div.perfil img{
+  width: 30px;
+  height: 30px;
+}
+
+/* Posts Style */
+
+.postList {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: #000;
+  font-size: 14px;
+}
+
+/* Post Style */
+
+div.post {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+div.infoPost {
+  border-bottom: 1px solid #EEEEEE;
+}
+
+div.infoPost p {
+  margin-bottom: 20px;
+}
+
+div.post div.author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+div.post div.author img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+div.post div.author .infosAuthor {
+  margin-left: 15px;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+div.post div.author .infosAuthor span {
+  font-size: 12px;
+  color: silver;
+}
+
+/* Comment Style */
+
+div.divComment {
+  display: flex;
+  align-items: flex-start;
+
+  margin-top: 20px;
+}
+
+div.divComment img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+div.divComment div.comment {
+  background-color: #EEEEEE;
+  padding: 15px;
+  border-radius: 20px;
+
+  flex: 1;
+}

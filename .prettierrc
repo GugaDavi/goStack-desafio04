@@ -1,0 +1,4 @@
+{
+  "singleQuote": true, // Usar aspas simples;
+  "trailingComma": "es5" // Para virgua no final de objetos;
+}
